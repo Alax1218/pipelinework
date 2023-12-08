@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '16.x'
 
-      - name: run npm
+      - name: npm run
         run: npx update-browserslist-db@latest
 
       - name: Install Dependencies
